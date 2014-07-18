@@ -1,0 +1,65 @@
+package ExampleStore;
+
+import java.util.Scanner;
+
+public class AverageCalculatorComplex {
+
+	public static void main(String[] args) {
+	
+		double Average, Total, Count;
+		
+		System.out.println("*** Welcome To The Complex Average Calaculator ***");
+		System.out.println(" ");
+		System.out.println("Note:- Three wrong input exists the program.");
+		System.out.println(" ");
+		
+		System.out.println("Please enter the final sum, whose average you are looking for.");
+		System.out.println("If you don't know any one or both, please enter 0 as your input.");
+		System.out.println(" ");
+		System.out.println("Final sum of numbers: ");
+		System.out.println("Final count of numbers: ");
+		
+		Scanner myInput = new Scanner(System.in);
+		
+		Total = myInput.nextDouble();
+		Count = myInput.nextDouble();
+		
+		int counter = 0; 
+		Total = 0;
+		int grade;
+		
+		if(Total != 0 && Count != 0)
+		{
+			Average = Total / Count;
+			
+			System.out.println(" ");
+			System.out.println("Average formula used: Average = Total sum of numbers / Count of numbers ");
+			System.out.println(" ");
+			System.out.println("The average is: " + Average);
+		}
+		
+		else
+		{
+			System.out.println(" ");
+			
+			while(counter < 10)
+			{
+				System.out.println("Please enter the number: ");
+				grade = myInput.nextInt();
+				Total = Total + grade;
+				counter++;
+			}
+			
+			System.out.println(" ");
+			
+			Count = 10;
+			Average = Total / Count;
+			
+			System.out.println(" ");
+			System.out.println("Average formula used: Average = Total sum of numbers / Count of numbers ");
+			System.out.println(" ");
+			System.out.println("The average is: " + Average);
+	}
+  }
+
+}
