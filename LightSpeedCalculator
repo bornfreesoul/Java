@@ -1,0 +1,25 @@
+package ExampleStore;
+
+import java.util.Scanner;
+
+public class LightSpeedCalculator {
+
+ public static void main(String[] args) {
+  int lightSpeed;
+  long days, seconds, distance;
+  
+  lightSpeed = 186000;
+  System.out.println("Please enter the days for which you want to check light travel miles: \n");
+  Scanner myDays = new Scanner(System.in);
+ 
+  days = myDays.nextLong();
+  
+  seconds = days * 24 * 60 * 60;
+  
+  distance = lightSpeed * seconds; 
+  
+  System.out.println("The light travel distance for enterted days is: " + distance + " miles.");
+
+	}
+
+}
