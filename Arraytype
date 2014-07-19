@@ -1,0 +1,15 @@
+public class ArrayExample {
+
+	public static void main(String[] args) {
+	int kapil1[] = new int[5];
+	
+		kapil1 [0] = 1;
+		kapil1 [1] = 2;
+		kapil1 [2] = 3;
+		kapil1 [3] = 4;
+		kapil1 [4] = 5;
+		
+		System.out.println("The array value at 4th point is: " + kapil1 [4] + "\n");
+		
+		}
+		}
