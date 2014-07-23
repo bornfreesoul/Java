@@ -1,0 +1,34 @@
+package StoreTwo;
+
+	class A{
+		A(){
+		System.out.println("Calling constructor A.");
+	}
+}
+	class B extends A{
+		B(){
+			System.out.println("Calling constructor B.");
+		}
+	}
+	
+	class C extends B{
+		C(){
+			System.out.println("Calling constructor C.");
+		}
+	}
+     
+	class D extends C{
+		D(){
+			System.out.println("Calling constructor D."); 
+		}
+	}
+	
+	public class ConstructorCallingItself {
+	
+	public static void main(String[] args) { // Main Method start from here. 
+	D d = new D();
+
+	}
+
+}
+
