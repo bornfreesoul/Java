@@ -1,0 +1,76 @@
+package StoreTwo;
+
+import java.util.Scanner;
+
+public class StringExample {
+
+		public static void main(String[] args) {
+
+//Example of string concatenation and addition of values in string.
+String s = "My Car Brand is Mercedez Benz S class and my lucky number is: ";
+System.out.println(s + (2+7) + "\n");
+
+
+//Example of string concatenation.
+String S1, S2;
+S1 = "This is the S1 string. ";
+S2 = "This is the S2 string. \n";
+
+System.out.println(S1.concat(S2));
+
+
+//Example for charAt() function. 
+char ch;
+ch = "abc".charAt(2);
+System.out.println (ch);
+
+
+//Example of string replace method.
+Scanner myValue = new Scanner(System.in);
+System.out.println("Please enter the string value: \n");
+
+String Value1;
+Value1 = myValue.nextLine();
+
+String S3 = Value1.replace("Hello", "Hi" + "\n");
+
+System.out.println(S3);
+
+
+//Example of string trim method.
+String S4;
+
+S4 = "     This is whitespace sentance.    \n";
+System.out.println(S4.trim());
+
+
+//Example second of string trim method.
+String Value2;
+
+System.out.println("Please enter the string value2: \n");
+Value2 = myValue.nextLine();
+
+System.out.println(Value2.trim());
+
+
+//Example of string to upper and lower case methods.
+String Value3;
+
+System.out.println("Please enter the string value3: \n");
+Value3 = myValue.nextLine();
+
+System.out.println(Value3.toLowerCase());
+System.out.println(Value3.toUpperCase());
+
+
+//Example of string to length and capacity case methods.
+String Value4;
+
+System.out.println("Please enter the string value4: \n");
+Value4 = myValue.nextLine();
+
+System.out.println(Value4.length());
+
+	}
+
+}
