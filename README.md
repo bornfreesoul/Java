@@ -1,4 +1,4 @@
-java
+Java
 ====
 1) Circle Area Calculator code in Java. 
 2) Average Calculator Complex code in Java. 
@@ -6,3 +6,4 @@ java
 4) Array in Java. 
 5) Constructor Call in Java. 
 6) Inheritance in Java. 
+7) Strings and there methods in Java. 
