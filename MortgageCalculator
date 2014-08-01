@@ -1,0 +1,42 @@
+package Ark;
+
+import java.util.Scanner;
+
+public class MortgageCalculator {
+
+	public static void main(String[] args) {
+		
+		/**
+		  Author: Kapil Sharma;
+		  Email-id: bornfreesoul@gmail.com
+		  Blog Url: testing-mines.blogspot.com
+
+		 **/
+		
+		System.out.println(" *** Welcome to Java based monthly mortgage payment calculator *** \n");
+		
+		Scanner myInput1 = new Scanner(System.in);
+		System.out.println("Please enter the years: \n");
+		double N, Y;
+		Y = myInput1.nextDouble();			
+		N = Y * 12; //Formula for calculating number of payments.
+		System.out.println("The number of payments is 'N = years x 12': " + N + "\n");
+		
+		Scanner myInput2 = new Scanner(System.in);
+		System.out.println("Please enter the interest_rate: \n");
+		double R, IR;
+		IR = myInput2.nextDouble();		
+		R = IR / 1200; //Formula for calculating monthly interest rate.
+		System.out.println("The 'Monthly interest rate' is: " + R + "\n");
+		
+		Scanner myInput3 = new Scanner(System.in);
+		System.out.println("Please enter the principal amount value: \n");
+		double MP, P;
+		P = myInput3.nextDouble();			
+		MP = P * (R / (1 - Math.pow(R, N))); //Formula for calculating monthly monthly payment.		
+		System.out.println("The 'Monthly payment' is: " + MP + "\n");
+		
+		System.out.println("Number of payments: " + N + "\n" + "Monthly interest rate: " + R + "\n" + "Monthly payment: " + MP);
+	}
+
+}
