@@ -8,3 +8,4 @@ Java
 6) Inheritance in Java. 
 7) Strings and there methods in Java. 
 8) Monthly mortgage payment calculator in Java.
+9) Thermometer App in Java.
