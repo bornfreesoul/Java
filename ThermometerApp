@@ -1,0 +1,31 @@
+package Ark;
+
+import java.util.Scanner;
+
+/**
+		  Author: Kapil Sharma;
+		  Email-id: bornfreesoul@gmail.com
+		  Blog Url: testing-mines.blogspot.com
+
+		 **/
+
+public class ThermometerApp {
+
+	public static void main(String[] args) {
+		
+		double C, F;
+		
+		System.out.println("Please enter the 'Fahrenheit' temperature:  \n");
+		Scanner myTemp = new Scanner(System.in);
+		
+		F = myTemp.nextDouble();
+		
+	    C = 0.56 * (F - 32); //Formula for converting fahrenheit into celsius.
+		
+		System.out.println("The 'Celsius' temperature is: " + C + "\n");
+		
+		System.out.println("Do you want to check another temperature? If yes than type 1 or 0 for exit.");
+				
+	}
+
+}
