@@ -1,0 +1,46 @@
+package Ark;
+
+import java.util.Scanner;
+
+public class GradeingMarksSystem {
+
+	public static void main(String[] args) {
+	Scanner myGrade = new Scanner(System.in);
+		
+	System.out.println("Please enter your grade: \n");
+		
+	char grade = myGrade.findInLine(".").charAt(0);
+			
+switch(grade)
+{
+case 'A':
+{
+	System.out.println("'A' is 90-100% its excellent. \n");
+	break;
+}
+case 'B':
+{
+	System.out.println("'B' is 70-90% its good. \n");
+	break;
+}
+case 'C':
+{
+	System.out.println("'C' is 50-70% its ok. \n");
+	break;
+}
+case 'D':
+{
+	System.out.println("'D' is less than 50% its fail. \n");
+	break;
+}
+default:
+{
+	System.out.println("Invalid input. \n");
+	break;
+}
+
+}
+	System.out.println("Your grade is: " + grade);	
+	}
+
+}
