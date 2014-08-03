@@ -1,0 +1,59 @@
+package Ark;
+
+import java.util.Scanner;
+
+public class MobileBill {
+	
+	public static void main(String[] args) {
+	Scanner myInput = new Scanner(System.in);
+	double cost = 29.95;
+	
+	System.out.println(" *** Welcome to the Snow Mobile Service. *** \n\n");
+	
+	System.out.println("1) Each customer pays $29.95 a month. \n");
+	System.out.println("2) It includes 400 peak minutes and 750 weekend and night minutes. \n");
+	System.out.println("3) The price for going over the allotted time is $.40/minute for both peak and weekend/night calls. \n");
+	
+	System.out.println("Please enter the call duration mintues for Monday to Friday: \n");
+	double myValue1 = myInput.nextDouble();
+	System.out.println("Please enter the call duration mintues for Saturday and Sunday: \n");
+	double myValue2 = myInput.nextDouble();
+	double myCallprice2 = cost + myValue1 * 0.40; 
+	double myCallprice3 = cost + myValue2 * 0.40; 
+	double myCallprice1 = cost; 
+	double myCallprice4 = cost; 
+	
+	if(myValue1 >= 400 || myValue2 >= 750)
+	{		
+		//double myCallprice2 = cost + myValue1 * 0.40; 
+		System.out.println("Monday to Friday call time cost is: " + myCallprice2 + " US dollars. \n");
+		//double myCallprice3 = cost + myValue2 * 0.40; 
+		System.out.println("Saturday to Sunday call time cost is: " + myCallprice3 + " US dollars. \n");
+	}
+	else if(myValue1 <= 400 || myValue2<= 750)
+	{				
+		//double myCallprice = myValue1 * 0.40; 
+		//double myCallprice1 = cost; 
+		System.out.println("Monday to Friday call time cost is: " + myCallprice1 + " US dollars. \n");
+		//double myCallprice = myValue1 * 0.40; 
+		//double myCallprice4 = cost; 
+		System.out.println("Saturday to Sunday call time cost is: " + myCallprice4 + " US dollars. \n");
+	}
+	else
+	{
+	System.out.println("Wrong entery. \n");	
+	}	
+	
+	double sum1 = myCallprice2 + myCallprice3;
+	double sum2 = myCallprice1 + myCallprice4;
+	
+	if(myValue1 <= 400 || myValue2<= 750)
+	{
+	System.out.println("Full cost is: " + sum2 + " US dollars. \n");
+	}
+	else
+	{
+		System.out.println("Full cost is: " + sum1 + " US dollars. \n");
+	}
+	}
+}
