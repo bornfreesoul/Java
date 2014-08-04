@@ -1,0 +1,19 @@
+package Ark;
+
+import java.util.Scanner;
+
+public class FinalSum {
+
+	public static void main(String[] args) {
+		Scanner myInput = new Scanner(System.in);
+		
+		System.out.println("Please enter the value: \n");
+			double myValue = myInput.nextDouble();			
+		    double sum = 0;	
+		    for(double counter = 0;counter <= myValue; counter++)
+			{	
+		        sum = sum + counter;		
+		    }	
+		    System.out.println("Sum is " + sum);
+}
+}
