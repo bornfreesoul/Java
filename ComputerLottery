@@ -1,0 +1,19 @@
+package Ark;
+
+public class ComputerLottery {
+
+	public static void main(String[] args) {
+    
+    System.out.println(" *** Welcome to the state game 'Computer Lottery' event. *** \n");
+    System.out.println("The lottery numbers are chosen randomly from two containers of numbered balls.\n");
+    
+    System.out.println("The randoml number of the selected white ball is: \n" + 49 * Math.random());
+    System.out.println("The randoml number of the selected white ball is: \n" + 49 * Math.random());
+    System.out.println("The randoml number of the selected white ball is: \n" + 49 * Math.random());
+    System.out.println("The randoml number of the selected white ball is: \n" + 49 * Math.random());
+    System.out.println("The randoml number of the selected white ball is: \n" + 49 * Math.random());
+
+    System.out.println("The randoml number of the selected red ball is: \n" + 42 * Math.random() + "\n");    
+ 
+	}
+}
