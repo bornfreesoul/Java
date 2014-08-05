@@ -12,3 +12,4 @@ Java
 10) Marks Gradeing System in Java.
 11) Mobile Bill Code in Java.
 12) Final Sum Application in Java.
+13) Computer lottery in Java.
