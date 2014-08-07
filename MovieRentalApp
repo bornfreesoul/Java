@@ -1,0 +1,42 @@
+package Ark;
+
+import java.util.Scanner;
+
+public class MovieRentalApp {
+
+	public static void main(String[] args) {
+		String candy, popcorn, customer, commission, Name, Membership, pwd1;
+		pwd1 = "12345";
+		System.out.println(" *** Welecome to movie rental service. *** \n");
+		System.out.println(" Choose one by entering 1 or 2: \n 1) Current customer:  \n" + " 2) New member: \n");
+		
+		Scanner myInput = new Scanner(System.in);
+		
+		System.out.println("Please enter your choice: \n");
+		int myValue1 = myInput.nextInt();
+		
+		if(myValue1 == 1)
+		{			
+			System.out.println("Please enter your membership ID: \n");	
+			String myValue2 = myInput.nextLine();
+		}		
+		else if(myValue1 == 2)
+		{
+			System.out.println("Please enter the following details: \n" + "Your name: \n" + "Your Mobile no.: \n" + "Your email id: \n");
+			String myValue3 = myInput.nextLine();
+			String myValue4 = myInput.nextLine();
+			String myValue5 = myInput.nextLine();
+			System.out.println(myValue3 + "\n" + myValue4 + "\n" + myValue5 + "\n");
+		}		
+		else
+		{
+			System.out.println("Wrong input. \n");
+		}
+		
+		String myValue2 = myInput.nextLine();				
+		if(myValue2.equals(pwd1))
+		{
+			System.out.println("Your membership is correct, you are now logged-in. \n");
+		}			
+	}
+}
