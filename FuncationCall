@@ -1,0 +1,21 @@
+package Box;
+
+public class FuncationCall 
+{
+	public static void main(String[] args) 	
+	{
+		myFirst();
+		mySecond(); 
+	}
+	
+	public static void myFirst()	
+	{
+		System.out.println("You called for the first funcation call. \n"); 
+	}
+	
+	public static void mySecond()	
+	{
+		System.out.println("You called for the second funcation call. \n"); 
+	}	
+	
+}
