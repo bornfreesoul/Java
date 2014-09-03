@@ -1,0 +1,45 @@
+package W1Ark;
+
+import java.util.Scanner;
+
+public class MenuChoice {
+
+	public static void main(String[] args) {
+
+		System.out.println("***  Welcome to the menu world. *** \n");
+		
+		System.out.println("Please enter you menu choice number. \n");
+		System.out.println("1. Main Menu.");
+		System.out.println("2. Sub-Menu.");
+		System.out.println("3. Last Menu. \n");
+		
+		Scanner Keyboard = new Scanner(System.in);		
+		int choice = Keyboard.nextInt();
+		
+		switch(choice)
+		{
+		case 1:
+		{
+			System.out.println("Welcome to the main menu.\n");
+			break;
+		}
+		case 2:
+		{
+			System.out.println("Welcome to the sub-main menu.\n");
+			break;
+		}
+		case 3:
+		{
+			System.out.println("Welcome to the last main menu.\n");
+			break;
+		}
+		default:
+		{
+			System.out.println("Wrong entery.\n");
+		}
+		
+		}				
+
+	}
+
+}
