@@ -1,0 +1,29 @@
+package W1Ark;
+
+import java.util.Scanner;
+
+public class JavaDecisions {
+	
+	public static void main(String[] args) {
+		
+		System.out.println("Please enter user name: \n");
+		
+		Scanner userInput = new Scanner(System.in);
+		String myUser1 = userInput.nextLine();
+				
+		//Decision statements for above mentioned strings.
+		if(myUser1.equals("Kapil"))
+		{
+			System.out.println("The entered name is correct, welcome 'Mr. Kapil'. \n");
+		}
+		else if (myUser1.equals("Sharma"))
+		{
+			System.out.println("The entered user name is correct, welcome 'Mr. Sha'. \n");
+		}
+		else
+		{
+			System.out.println("Wrong entery!");
+		}
+	}
+
+}
