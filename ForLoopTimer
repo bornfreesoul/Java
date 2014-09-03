@@ -1,0 +1,21 @@
+package W1Ark;
+
+import java.util.Scanner;
+
+public class ForLoopTimer {
+
+	public static void main(String[] args) {
+		
+		System.out.println("***  Welcome to the For loop timer application. *** \n");
+		
+		System.out.println("Please enter the time limit for the 'for-timer'.\n");
+		Scanner Keyboard = new Scanner(System.in);
+		int myKeyboard = Keyboard.nextInt();
+		System.out.println(" ");
+		for(int counter = 1; counter <= myKeyboard; counter++)
+		{
+			System.out.println(counter);
+		}
+		System.out.println("Time completed.");
+	}
+}
