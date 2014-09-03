@@ -1,0 +1,24 @@
+package W1Ark;
+
+import java.util.Scanner;
+
+public class DoWhileLoopApp {
+
+	public static void main(String[] args) {
+		String myInput;
+		System.out.println(" *** Welcome to the 'Do-While Loop' app. ***\n");	
+		
+		Scanner Keyboard = new Scanner(System.in);	
+		
+		do
+		{
+			System.out.println("Please enter 'Exit' to logged-out from the application. \n");					
+			myInput = Keyboard.nextLine();			
+		}
+		while(!myInput.equals("Exit"));
+		
+		System.out.println("GoodBye!");
+
+	}
+
+}
