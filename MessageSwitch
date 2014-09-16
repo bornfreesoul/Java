@@ -1,0 +1,39 @@
+package JBox;
+
+import java.util.Scanner;
+
+public class MessageSwitch {
+
+	public static void main(String[] args) {
+		System.out.println("*** Welcome To Message Switch App ***\n");
+		
+		Scanner userIn = new Scanner(System.in);
+		
+		System.out.println("Menu Choices:\n");
+		System.out.println("1.) Bank Account.");
+		System.out.println("2.) Mail Account.");
+		System.out.println("3.) Photo Account.\n");
+				
+		System.out.println("Please enter your choice: ");
+		
+		int choice = userIn.nextInt();
+				
+		switch(choice)
+		{
+		case 1:
+			System.out.println("You have bank account.");
+			break;
+		case 2:
+			System.out.println("You have mail Account.");
+			break;
+		case 3:
+			System.out.println("You have photo Account.");
+			break;
+		default:
+			System.out.println("Wrong Input.");
+			break;
+		}
+
+	}
+
+}
