@@ -1,21 +1,22 @@
 Java
 ====
-1) Circle Area Calculator code in Java. 
-2) Average Calculator Complex code in Java. 
-3) Speed of Light Calculator in Java.
-4) Array in Java. 
-5) Constructor Call in Java. 
-6) Inheritance in Java. 
-7) Strings and there methods in Java. 
-8) Monthly mortgage payment calculator in Java.
-9) Thermometer App in Java.
-10) Marks Gradeing System in Java.
-11) Mobile Bill Code in Java.
-12) Final Sum Application in Java.
-13) Computer lottery in Java.
-14) Movie Rental App in Java.
-15) Funtion Calls in Java.
-16) Decisions statements in Java. 
-17) Menu choice application in Java.
-18) For loop timer app in Java.
-19) Do-while loop app in Java.
+1) Circle area calculator code in java. 
+2) Average calculator complex code in java. 
+3) Speed of light calculator in java.
+4) Array in java. 
+5) Constructor call in java. 
+6) Inheritance in java. 
+7) Strings and there methods in java. 
+8) Monthly mortgage payment calculator in java.
+9) Thermometer app in java.
+10) Marks gradeing System in java.
+11) Mobile bill Code in java.
+12) Final sum Application in java.
+13) Computer lottery in java.
+14) Movie rental App in java.
+15) Funtion calls in java.
+16) Decisions statements in java. 
+17) Menu choice application in java.
+18) For loop timer app in java.
+19) Do-while loop app in java.
+20) Message switch application in java. - 1W1(Sept14)
