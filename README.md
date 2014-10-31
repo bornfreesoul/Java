@@ -21,3 +21,4 @@ Java
 19) Do-while loop app in java.
 20) Message switch application in java. - 1W1(Sept14)
 21.) Bill Divider App in Java.
+22.) Bill Tip value App in Java. 
