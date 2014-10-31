@@ -1,0 +1,22 @@
+package BBook;
+
+import java.util.Scanner;
+
+public class Bill {
+
+	public static void main(String[] args) {
+		
+		Scanner myInput = new Scanner(System.in);
+			
+		System.out.println("*** Welcome to the 'Bill Book' App! ***\n");
+		System.out.println("1.) Please enter the total value of the bill: ");
+		float TB = myInput.nextFloat();
+		System.out.println("2.) Please enter the total person count value, whom this bill needs to be divided: ");
+		float TP = myInput.nextFloat();
+		
+		float FV = TB/TP;
+		
+		System.out.println("Final bill value divided between above per share person count is: " + FV );
+	}
+
+}
