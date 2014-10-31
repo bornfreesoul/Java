@@ -1,0 +1,27 @@
+package BBook;
+
+import java.util.Scanner;
+
+public class Tip {
+
+	public static void main(String[] args) {
+
+		System.out.print("*** Welcome to 'Tip' calculator! *** \n" + "\n");
+		
+		Scanner userInput = new Scanner(System.in);
+				
+		System.out.println("1.) Please enter the total bill value: ");
+		float uValue1 = userInput.nextFloat();
+		
+		System.out.println("2.) Please enter the tip % you want to add to the bill value(e.g: 0.10 or 0.15): ");
+		float uValue2 = userInput.nextFloat();
+		
+		float TP = uValue2 * uValue1;
+		
+		float FV = uValue1 + TP;
+		
+		System.out.println("The final bill value including tip is: " + FV);
+
+	}
+
+}
