@@ -1,0 +1,36 @@
+package BBook;
+
+import java.util.Scanner;
+
+public class Biller {
+
+		public static void main(String[] args) {
+			
+			Scanner myInput = new Scanner(System.in);
+				
+			System.out.println("*** Welcome to the 'Biller' App! ***\n");
+			
+			System.out.println("1.) Please enter the total value of the bill: ");
+			float TB = myInput.nextFloat();
+			System.out.println("2.) Please enter the total person count value, whom this bill needs to be divided: ");
+			float TP = myInput.nextFloat();			
+			System.out.println("3.) Please enter the tip % you want to add to the bill value(e.g: 0.10 or 0.15): ");
+			float TV = myInput.nextFloat();
+			
+			/* Comments, showing meaning of scanner variables:
+			TB = Total Bill.
+			TP = Total Person. 
+			TV = Tip Value.
+			FV = Final Value.
+			TFV = Total Final Value. */
+			
+			float TFV = TV * TB; 
+			
+			float FV = TB + TFV;		
+			
+			float GFV = FV/TP;
+			
+			System.out.println("Final bill value with tip, divided between per person share is: " + GFV );
+		}
+
+	}
