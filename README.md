@@ -23,3 +23,4 @@ Java
 21.) Bill Divider App in Java.
 22.) Bill Tip value App in Java. 
 23.) The Biller App in Java. 
+24.) VAT (Value Added Tax) calculator in Java.
