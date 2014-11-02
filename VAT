@@ -1,0 +1,29 @@
+package BBook;
+
+import java.util.Scanner;
+
+public class Vat {
+
+	public static void main(String[] args) {
+		
+		Scanner uInput = new Scanner(System.in);
+		
+		System.out.print("*** Welcome to the VAT (Value Added Tax) App *** \n");
+		
+		System.out.print("1.) Please enter the bill amount: \n");
+		float TB = uInput.nextFloat();
+		
+		System.out.println("2.) Please enter the VAT percentage according to your country: \n");
+		float VT = uInput.nextFloat();
+		
+		/*For e.g. 12.5% is the same as saying: 12.5 / 100 = 0.125 */
+		
+		float FV = VT * TB; 
+		
+    float GFV = TB + FV;
+		
+		System.out.println("The final bill value with VAT is: "+ GFV);
+
+	}
+
+}
