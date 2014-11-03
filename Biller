@@ -16,21 +16,17 @@ public class Biller {
 			float TP = myInput.nextFloat();			
 			System.out.println("3.) Please enter the tip % you want to add to the bill value(e.g: 0.10 or 0.15): ");
 			float TV = myInput.nextFloat();
+			System.out.println("4.) Please enter the VAT percentage according to your country(e.g: 0.12 or 0.125): ");
+			float VT = myInput.nextFloat();
 			
-			/* Comments, showing meaning of scanner variables:
-			TB = Total Bill.
-			TP = Total Person. 
-			TV = Tip Value.
-			FV = Final Value.
-			TFV = Total Final Value. */
+			// Formula's Used. //
+			float FFV = TB * TV; //TB = Total Bill; TV = Tip Value //
+			float SFV = TB * VT; //TB = Total Bill; TV = VAT //
+			float TFV = FFV + SFV + TB; 
 			
-			float TFV = TV * TB; 
+			float GFV = TFV/TP;			
 			
-			float FV = TB + TFV;		
-			
-			float GFV = FV/TP;
-			
-			System.out.println("Final bill value with tip, divided between per person share is: " + GFV );
+			System.out.println("Final bill value with tip, VAT and divided between per person share is: " + GFV );
 		}
 
 	}
