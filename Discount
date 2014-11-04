@@ -1,0 +1,26 @@
+package BBook;
+
+import java.util.Scanner;
+
+public class Discount {
+
+	public static void main(String[] args) {
+		
+		Scanner myInput = new Scanner(System.in);
+		
+		System.out.println(" *** Bill Discount App *** \n");
+		
+		System.out.println("1. Please enter the bill amount: \n");
+		float TB = myInput.nextFloat();
+		
+		System.out.println("2. Please enter the discount amount: \n");
+		float DV = myInput.nextFloat();
+		
+		//TB = Total Bill, DV = Discount Bill // 
+		float FV = TB - DV;
+		
+		System.out.println("Final value of the bill after discount: \n" + FV);
+
+	}
+
+}
