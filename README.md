@@ -27,5 +27,6 @@ Java
 25.) Discount calculator in Java.
 
 Java Training Apps:
-1.) Hello Message.
+1.) Hello Message in Java.
+2.) Variables in Java.
 
