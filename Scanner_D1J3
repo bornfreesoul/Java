@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Scanner_D1J3 {
+
+	public static void main(String[] args) {
+		// http://docs.oracle.com/javase/7/docs/api/java/util/Scanner.html
+System.out.println("Welecome to the 'Java Scanner'utlity");
+Scanner myScanner1 = new Scanner(System.in);
+Scanner myScanner2 = new Scanner(System.in);
+//'Next' method only show single word. 
+System.out.print("Please enter only name: ");
+System.out.println("Entered name was: " + myScanner1.next());
+
+//'NextLine' shows the string of words.
+System.out.print("Please enter the name and surname: ");
+System.out.println("Entered name was: " + myScanner2.nextLine());
+		
+	}
+
+}
