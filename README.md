@@ -25,3 +25,7 @@ Java
 23.) The Biller App in Java. 
 24.) VAT (Value Added Tax) calculator in Java.
 25.) Discount calculator in Java.
+
+Java Training Apps:
+1.) Hello Message.
+
