@@ -1,0 +1,17 @@
+
+public class Variables_D1J2 
+{
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+System.out.println("Welcome to the variable example!");
+	
+	double myDouble1 = 1.12345; //Assign variable value. 
+	double myDouble2 = 2.2345;
+	
+	double X = myDouble1 + myDouble2;
+	double Y = myDouble1 * myDouble2;
+	
+	System.out.println("The value of 'X' is: " + X + "\n" + "The value of 'Y' is: " + Y);
+}
+	
+}
