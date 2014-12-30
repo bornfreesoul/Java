@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class Calculator_D1J4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+System.out.println("Welcome to the 'Java Calculator' app");
+Scanner myScan = new Scanner(System.in);
+double Add,Subtract,Divide, Multiply, x ,y;
+
+System.out.println("Please enter the first value: ");
+x = myScan.nextDouble();
+System.out.println("Please enter the second value: ");
+y = myScan.nextDouble();
+
+Add = x + y;
+Subtract = x - y;
+Divide = x / y;
+Multiply = x * y;
+
+System.out.println("The addition value is: " + Add);
+System.out.println("The subtracted value is: " + Subtract);
+System.out.println("The divide value is: " + Divide);
+System.out.println("The multiply value is: " + Multiply);
+
+	}
+
+}
