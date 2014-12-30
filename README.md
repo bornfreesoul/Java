@@ -30,4 +30,5 @@ Java Training Apps:
 1.) Hello Message in Java.
 2.) Variables in Java.
 3.) Scanner in Java.
+4.) Calculator App in Java.
 
