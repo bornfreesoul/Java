@@ -1,0 +1,39 @@
+import java.util.Scanner;
+public class LogicalOperators_D2J4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner myInput = new Scanner(System.in);
+
+int X, Y, Male, Female;
+
+System.out.println("Welcome to the 'Logical Operator' App! \n");
+
+System.out.println("Please enter the X value: \n");
+X = myInput.nextInt();
+
+System.out.println("Please enter the Y value: \n");
+Y = myInput.nextInt();
+
+System.out.println("Please enter the 'Male' value: \n");
+Male = myInput.nextInt();
+
+System.out.println("Please enter the 'Female' value: \n");
+Female = myInput.nextInt();
+
+
+if((Male >= X) && (Female >= Y))
+{
+	System.out.println("\n Shopping Mall is full!");
+}
+else if ((Male >= X) || (Female >= Y)) 
+{
+	System.out.println("Males are overcrowed!");
+}
+else 
+{
+System.out.println("Wrong input!");	
+}
+	}
+
+}
