@@ -1,0 +1,48 @@
+import java.util.Scanner;
+
+public class SwitchCase_D2J5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int age;
+		Scanner myInput = new Scanner(System.in);
+
+System.out.println("Welcome to the 'Switch Case' generator! \n");
+
+System.out.println("Please enter the value of age: ");
+age = myInput.nextInt();
+		
+switch (age) 
+{
+case 10:
+{
+	System.out.println("He is 10 year old.");	
+	break;
+}
+case 15:
+{
+	System.out.println("He is 15 year old.");	
+	break;
+}
+case 20:
+{
+	System.out.println("He is 20 year old.");	
+	break;
+}
+case 100:
+{
+	System.out.println("He is 100 year old.");	
+	break;
+}
+default:
+{
+	System.out.println("Wrong age!");	
+	break;
+}
+	
+}
+
+	}
+
+}
+//13 Tut are done.//
