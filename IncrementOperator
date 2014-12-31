@@ -1,0 +1,17 @@
+
+public class IncrementOperator_D2J1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double myVar1 = 10;
+		double myVar2 = 21;
+		++myVar1;//Incremental ++ operator used.//
+		myVar2 += 5;
+		--myVar1;
+		myVar1 *= 3;
+		System.out.println(myVar1 + "\n");
+		System.out.println(myVar2);
+
+	}
+
+}
