@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class WhileLoop_D2J6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner myInput = new Scanner(System.in);
+
+		int X;
+		System.out.println("Welcome to 'While Loop' example. \n");
+		
+		System.out.println("Please enter the value of X: \n");
+		X = myInput.nextInt();
+		
+int counter = 0;
+
+while (counter < X) 
+{
+	System.out.println("This iteration number is: " + counter);
+	counter++;
+}
+
+	}
+
+}
