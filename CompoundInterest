@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class CompoundInterest
+{
+	public static void main(String[] args) 
+	{
+		double amount;
+
+		Scanner myInput = new Scanner(System.in);
+		
+		System.out.println("Welcome to the 'Compound Intreset' App! \n");
+		
+		System.out.println("Please enter the 'Principal' amount: ");
+		double myPri = myInput.nextDouble();
+		
+		System.out.println("Please enter the 'Rate' intrest: ");
+		double myInter = myInput.nextDouble();
+		
+		System.out.println("Please enter the 'Years' hold: ");
+		double myYear = myInput.nextDouble();
+		
+		double myINV = myPri/myInter;
+		
+		amount = myPri + myINV * myYear;
+		
+		System.out.println("The final amount is: " + amount);
+				
+	}
+
+}
