@@ -11,7 +11,7 @@ Java Training Apps:
 8.) Logical Operators App in Java - D2J4
 9.) Switch Case App in Java - D2J5
 10.) While Loop App in Java - D2J6
-
+11.) Compound Interest App in Java - D4J2
 
 
 
