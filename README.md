@@ -26,3 +26,4 @@ Java
 24.) VAT (Value Added Tax) calculator in Java.
 25.) Discount calculator in Java.
 26.) Compound Interest calculator in Java.
+27.) Array Calculator in Java.
