@@ -1,0 +1,21 @@
+
+public class Arrays_D5J2 {
+
+	public static void main(String[] args) {
+		int myArray[] = new int[8]; //Multi-line Array Example//
+		myArray[0] = 1;
+		myArray[1] = 11;
+		myArray[2] = 111;
+		myArray[3] = 1111;
+		myArray[4] = 11111;
+		myArray[5] = 111111;
+		myArray[6] = 1111111;
+		myArray[7] = 11111111;
+		System.out.println(myArray[6]);
+		
+		//Single Line Array Example//
+		int myArrayTwo[]={2,22,222,2222,22222,222222,2222222, 22222222};
+		System.out.println(myArrayTwo[6]);
+	}
+
+}
