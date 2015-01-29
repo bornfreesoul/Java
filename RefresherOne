@@ -1,0 +1,95 @@
+package jStore;
+
+import java.util.Scanner;
+
+public class RefresherOne {
+
+		@SuppressWarnings("resource")
+		public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner myInput1 = new Scanner(System.in);
+		
+		/*System.out.println("This is java refresher course. \n");
+		
+		double fun1, fun2, sum;
+		String myString1;
+				
+		System.out.println("Please enter first number: ");
+		fun1 = myInput1.nextDouble();
+				
+		System.out.println("Please enter second number: ");
+		fun2 = myInput1.nextDouble();
+		
+		sum = fun1 + fun2;
+		System.out.println(" ");
+		
+		System.out.println("Result sum of two numbers: " + sum);
+		
+		System.out.println("Please enter your name: ");
+		myString1 = myInput1.next();
+		
+		System.out.println("The name you entered is: " + myString1);*/
+//		
+//			int num1 = 9;
+//			int num2 = 3;
+//			
+//			if(num1 == 9)
+//			{
+//				System.out.println("num1 is equal to 9");
+//			}
+//			else if (num2 == 3) 
+//			{
+//				System.out.println("num2 is equal to 3");
+//			}
+//			else 
+//			{
+//				System.out.println("Wrong data!");
+//			}
+//		
+//			System.out.println("Welecome to Swtich Statement");
+//			
+//			int myVal1;
+//			System.out.println("Please enter the value: ");
+//			myVal1 = myInput1.nextInt();
+//			
+//			switch (myVal1)
+//			{
+//			case 100:
+//			{
+//				System.out.println("This is the right value.");
+//				break;
+//			}
+//			case 200:
+//			{
+//				System.out.println("This is the second right value.");
+//				break;
+//			}
+//			default:
+//			{
+//				System.out.println("Wrong value");
+//			break;
+//			}
+//			
+//			}
+		//Password access code snippet  
+			int counter = 0;
+			while (counter <3) //Only three tries. 3 turns hard coded in code.
+			{
+				System.out.println("Please enter your password charcters: ");
+				String myString2 = myInput1.nextLine();
+				counter++; //Counter counts the number of tries.
+				if (myString2.equals("Tony Stark"))
+				{	
+				System.out.println("Database access granted.");
+				break; //While loop break function used, other wise, code continue asking pwd.
+				}			
+				else
+				{
+				System.out.println("Wrong data input.");
+				}		
+			}
+			
+	}
+
+}
