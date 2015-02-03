@@ -1,0 +1,23 @@
+#Random Number Generator OR Lottery random number game:
+
+package jStore;
+
+import java.util.Random;
+
+public class S15E1_1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int number;
+		Random dice = new Random();
+		
+		for(int counter=1; counter<=8; counter++)
+		{
+			number = dice.nextInt(7);
+			System.out.println("The random number is: "+ number);
+		}
+			
+			
+	}
+
+}
