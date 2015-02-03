@@ -1,0 +1,19 @@
+package jStore;
+
+public class S15E1_1 {
+
+	public static void main(String[] args) {
+
+
+int Num1[] = {1,2,3,4,5,6,7,8}; //Integer Array.
+
+System.out.println("Index\tValue");
+		System.out.println("======\t=====");
+		for(int counter=0; counter<Num1.length; counter++)
+		{
+			System.out.println("  " + counter + "\t" + "  "+ Num1[counter]);
+		}
+	
+	}
+
+}
