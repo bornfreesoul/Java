@@ -12,7 +12,7 @@ Java Training Apps:
 9.) Switch Case App in Java - D2J5
 10.) While Loop App in Java - D2J6
 11.) Compound Interest App in Java - D4J2
-
+12.) Two Dimensional Array in Java.
 
 
 
