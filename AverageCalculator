@@ -1,0 +1,40 @@
+// Average Markes Calculator.
+
+package jStore;
+
+import java.util.Scanner;
+
+public class S15E2_2 {		
+
+	public static void main(String[] args) {
+		
+		@SuppressWarnings("resource")
+		Scanner myInput = new Scanner(System.in); // Object created.
+		
+		System.out.println("Please enter the value1: ");
+		float myValue1 = myInput.nextFloat(); // Type assigned to the object.
+		
+		System.out.println("Please enter the value2: ");
+		float myValue2 = myInput.nextFloat(); 
+		
+		System.out.println("Please enter the value3: ");
+		float myValue3 = myInput.nextFloat(); 
+		
+		System.out.println("Please enter the value4: ");
+		float myValue4 = myInput.nextFloat(); 
+		
+		System.out.println("Please enter the value5: ");
+		float myValue5 = myInput.nextFloat(); 
+		
+		System.out.println("Please enter the division count: ");
+		float myValue6 = myInput.nextFloat(); 
+		
+		float sum, result;
+		
+		sum = myValue1 + myValue2 + myValue3 + myValue4 + myValue5;
+		result = sum/myValue6;
+		
+		System.out.println("Average result is: " + result);
+	}
+
+}
