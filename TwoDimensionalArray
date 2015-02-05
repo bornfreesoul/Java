@@ -1,0 +1,16 @@
+package jStore;
+
+public class S15E2_2 {
+
+	public static void main(String[] args) {
+		
+		// Two dimensional array.		
+		int firstarry[][] = {{0,1,2},{3,4,5}};
+		int secondarray[][] = {{6,7,8},{9,10,11}};
+		
+		System.out.println("First Array: " + firstarry[0][1]);
+		System.out.println("Second Array: " + secondarray[1][2]);
+		
+	}
+
+}
