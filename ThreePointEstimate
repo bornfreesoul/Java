@@ -1,0 +1,27 @@
+package jStore;
+
+import javax.swing.JOptionPane;
+
+public class ThreePointEstimation_S15E3_4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String OD = JOptionPane.showInputDialog(null,"Please enter optimistic project duration: ","TPE, testing-mines.blogspot.in",JOptionPane.INFORMATION_MESSAGE);
+		String MLD = JOptionPane.showInputDialog(null,"Please enter the mostly likely project duration: ","TPE, testing-mines.blogspot.in",JOptionPane.INFORMATION_MESSAGE);
+		String PD = JOptionPane.showInputDialog(null,"Please enter the pessimistic project duration: ","TPE, testing-mines.blogspot.in",JOptionPane.INFORMATION_MESSAGE);
+	
+		float num1 = Float.parseFloat(OD);
+		float num2 = Float.parseFloat(MLD);
+		float num3 = Float.parseFloat(PD);
+		
+		// Three Point Estimate formula = OD + MLD + PD/3  
+		float sum = num1 + num2 + num3;
+		float TPE = sum/3;
+		
+		JOptionPane.showMessageDialog(null, "Three Point Estimation: " + TPE +" days.","TPE, testing-mines.blogspot.in",JOptionPane.INFORMATION_MESSAGE);
+				
+	}
+
+}
+
