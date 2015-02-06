@@ -1,0 +1,24 @@
+// Swing Addition Calculator. 
+
+package jStore;
+
+import javax.swing.JOptionPane;
+
+public class S15E3_1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String fn = JOptionPane.showInputDialog("Enter the first number: ");
+		String sn = JOptionPane.showInputDialog("Enter the second number: ");
+		
+		int num1 = Integer.parseInt(fn);
+		int num2 = Integer.parseInt(sn);
+		
+		int sum = num1 + num2;
+		
+		JOptionPane.showMessageDialog(null,"The answer is: " + sum, "The Tile Bar!", JOptionPane.PLAIN_MESSAGE);
+		
+	}
+
+}
