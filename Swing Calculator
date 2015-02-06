@@ -1,0 +1,29 @@
+// Swing Calculator. 
+
+package jStore;
+
+import javax.swing.JOptionPane;
+
+public class S15E3_2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String fn = JOptionPane.showInputDialog("Please enter the first number: ");
+		String sn = JOptionPane.showInputDialog("Please enter the second number: ");
+		
+		float num1 = Float.parseFloat(fn);
+		float num2 = Float.parseFloat(sn);
+		
+		float add, divide, multiply, subtract;
+		
+		add = num1 + num2;
+		divide = num1 / num2;
+		multiply = num1 * num2;
+		subtract = num1 - num2;
+		
+		JOptionPane.showMessageDialog(null, "* First number value entered: "+ num1 +"\n"+ "* Second number value entered: "+ num2 + "\n\n" + "Results: \n"+"*********\n"+ "* Add: " + add + "\n" +"* Divide: "+ divide +  "\n" + "* Multiply: "+ multiply+ "\n" +"* Subtract: "+ subtract);
+				
+	}
+
+}
