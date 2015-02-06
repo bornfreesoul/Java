@@ -30,3 +30,8 @@ Java
 28.) Password Access in Java. 
 29.) Lottery random number game in Java.
 30.) Average Markes Calculator in Java.
+31.) Addition calculator in swing Java.
+32.) Calculator in swing Java.
+33.) PERT application in swing Java.
+34.) Three Point Estimation app in swing Java.
+
