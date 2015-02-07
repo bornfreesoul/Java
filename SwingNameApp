@@ -1,0 +1,17 @@
+package jStore;
+
+import javax.swing.JOptionPane;
+
+public class PureSwing_S15E4_2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String fi = JOptionPane.showInputDialog(null,"Please enter your first name: ","testing-mines.blogspot.in",JOptionPane.INFORMATION_MESSAGE);
+		String si = JOptionPane.showInputDialog(null,"Please enter your last name: ","testing-mines.blogspot.in", JOptionPane.INFORMATION_MESSAGE);
+	
+		JOptionPane.showMessageDialog(null, "Your full name is: " + fi +" "+ si,"testing-mines.blogspot.in", JOptionPane.INFORMATION_MESSAGE);
+	
+	}
+
+}
