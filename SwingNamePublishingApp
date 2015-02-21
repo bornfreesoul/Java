@@ -1,0 +1,15 @@
+package jStore;
+
+import javax.swing.JOptionPane;
+
+public class SwingRefresher_S15E5_1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String si = JOptionPane.showInputDialog(null,"Please enter your name: ","First Input Box",JOptionPane.INFORMATION_MESSAGE);
+		
+		JOptionPane.showMessageDialog(null, si,"Second Input Box", JOptionPane.INFORMATION_MESSAGE);
+	}
+
+}
