@@ -1,0 +1,28 @@
+package jStore;
+
+import java.util.Scanner;
+
+public class SchedulePerformanceIndex {
+
+	public static void main(String[] args) {
+		
+		System.out.println("*** Welcome to the PM - Schedule Performance Index Calculator. ***\n");
+		System.out.println("It consists of two things.");
+		System.out.println("1. Earned Value; 2. Planned Value. \n");
+		
+		@SuppressWarnings("resource")
+		Scanner myInput = new Scanner(System.in);
+		
+		System.out.println("Please enter earned value details: ");
+		float V1 = myInput.nextFloat();
+		
+		System.out.println("Please enter planned value details: ");
+		float V2 = myInput.nextFloat();
+		
+		float SPI = V1 / V2;
+		
+		System.out.println("The Schedule performance index value is: "+SPI);		
+
+	}
+
+}
