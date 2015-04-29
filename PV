@@ -1,0 +1,30 @@
+package jStore;
+
+import java.util.Scanner;
+
+public class PlannedValue {
+
+	public static void main(String[] args) {
+		
+		System.out.println("*** Welcome to the Pm - Planned Value Calculator. ***\n");
+		System.out.println("It consists of two things.");
+		System.out.println("1. Planned Percentage Complete; 2. Budget At Completion \n");
+		
+		@SuppressWarnings("resource")
+		Scanner myInput = new Scanner(System.in);
+		
+		System.out.println("Please enter planned percentage complete details: ");
+		float V1 = myInput.nextFloat();
+		
+		System.out.println("Please enter budget at completion details: ");
+		float V2 = myInput.nextFloat();
+		
+		float PV = (V1/100) * V2;
+		
+		System.out.println("The planned value is: "+PV);		
+
+	}
+
+}
+
+//1. Planned Value = (Planned % Complete) X (Budget at Completion BAC) Done
