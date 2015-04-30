@@ -1,0 +1,28 @@
+package jStore;
+
+import java.util.Scanner;
+
+public class VarianceAtCompletion {
+
+	public static void main(String[] args) {
+
+		System.out.println("*** Welcome to the PM - Variance At Completion Calculator. ***\n");
+		System.out.println("It consists of two things.");
+		System.out.println("1. Budget At Completion; 2. Estimate At Completion. \n");
+		
+		@SuppressWarnings("resource")
+		Scanner myInput = new Scanner(System.in);
+		
+		System.out.println("Please enter budget at completion details: ");
+		float V1 = myInput.nextFloat();
+		
+		System.out.println("Please enter estimate at completion details: ");
+		float V2 = myInput.nextFloat();
+		
+		float VC = V1 - V2;
+		
+		System.out.println("The 'Variance At Completion' value is: "+VC);		
+
+	}
+
+}
