@@ -46,5 +46,6 @@ Java
 44. Project Management - SD(Standard Deviation) application.
 45. Project Management - VC(Variance At Completion) application.
 46. Project Management - ROI(Return On Investment) application.
+47. BMI calculator application. 
 
 ReleaseNotes
