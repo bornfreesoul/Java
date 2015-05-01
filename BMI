@@ -1,0 +1,51 @@
+package jStore;
+
+import java.util.Scanner;
+
+public class BMI {
+
+	public static void main(String[] args) {
+		
+		float BMI;
+		
+		System.out.println("*** Welcome to BMI Calculator. ***");
+		System.out.println("It's formula consists of two items.");
+		System.out.println("1. Weight; 2. Height");
+		
+		@SuppressWarnings("resource")
+		Scanner myInput = new Scanner(System.in);
+		
+		System.out.println("Please enter weight in 'kg': ");
+		float V1 = myInput.nextFloat();
+		
+		System.out.println("Please enter height in 'cm': ");
+		float V2 = myInput.nextFloat();
+		
+		BMI = ((V1)/ (V2 * V2)) * 10000;
+		
+		System.out.println("The BMI is: "+BMI);		
+	    
+	    if(BMI <= 18.5)
+	    {
+	      System.out.println("You are underweight!");
+	    }
+	    else if(BMI >= 18.5 && BMI <= 24.9)
+	    {
+	       System.out.println("You are normal weight.");
+	    }
+	    else if(BMI >= 25 && BMI <= 27.9)
+	    {
+	       System.out.println("You are over weight.");
+	    }
+	    else if(BMI >= 28)
+	    {
+	      System.out.println("You are obese.");
+	    }
+	    else
+	    {
+	      System.out.println("Wrong value!");
+	    }
+	    
+	}
+}
+
