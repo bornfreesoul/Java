@@ -47,5 +47,6 @@ Java
 45. Project Management - VC(Variance At Completion) application.
 46. Project Management - ROI(Return On Investment) application.
 47. BMI calculator application. 
+48. Estimating Effort Calculator. 
 
 ReleaseNotes
