@@ -20,7 +20,7 @@ public class Vat {
 		
 		float FV = VT * TB; 
 		
-    float GFV = TB + FV;
+    		float GFV = TB + FV;
 		
 		System.out.println("The final bill value with VAT is: "+ GFV);
 
