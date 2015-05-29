@@ -1,0 +1,35 @@
+package jStore;
+
+import java.util.Scanner;
+
+public class HourlyWageCalculatorApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+				
+		@SuppressWarnings("resource")
+		Scanner myInput = new Scanner(System.in);
+		
+		System.out.println("Please enter the number of hrs of working: ");
+		float H = myInput.nextFloat();
+		
+		System.out.println("Please enter the hourly wage: ");
+		float W = myInput.nextFloat();
+		
+		float R = (H * W);
+		   
+		System.out.println("The total amount of the wage w.r.t hours is: " + R);
+           
+		System.out.println("Please enter the govt. tax on the final amount of wage: ");
+           
+		float T = myInput.nextFloat();
+
+        float NW = (R  * T/100 );
+
+        float A = R - NW;
+                
+        System.out.println("The final amount after tax dedcuation is: "+ A);		
+
+	}
+
+}
