@@ -49,5 +49,6 @@ Java
 47. BMI calculator application. 
 48. Estimating Effort Calculator. 
 49. Hourly Wage Calculator Application.
+50. Bus Fare Application.
 
 ReleaseNotes
