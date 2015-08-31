@@ -1,0 +1,34 @@
+//author__ = 'www.kingsman.co.in'
+package jStore;
+import java.util.Scanner;
+
+public class BusFareApp {
+
+	public static void main(String[] args) {
+		System.out.println("*** Welcome to the Bus fare Application ***\n");
+		System.out.println("Legends-Information!\n");
+		System.out.println("@)Distance parameter: Kilometer(KM)");
+		System.out.println("@)Time: Hours\n");
+		
+		@SuppressWarnings("resource")
+		Scanner Input = new Scanner(System.in);
+		
+		System.out.println("1) Please enter the distance travelled by passenger in approx KM: ");
+		float dt = Input.nextFloat();
+		
+		System.out.println("2) Please enter the per km fare price: ");
+		float fp = Input.nextFloat();
+		
+		System.out.println("3) Please enter the per hour speed in km: ");
+		float ts = Input.nextFloat();
+		
+		int tt = (int)(dt / ts);
+		int tf = (int)(dt *fp);
+		
+		System.out.println("4) Total approx fare for travelled distance is: " + tf);
+		
+		System.out.println("5) Total time consumed in approx hours for the trip is: " + tt);
+		
+	}
+
+}
