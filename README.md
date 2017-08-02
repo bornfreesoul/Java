@@ -19,36 +19,36 @@ Java
 17) Menu choice application in java.
 18) For loop timer app in java.
 19) Do-while loop app in java.
-20) Message switch application in java. - 1W1(Sept14)
-21.) Bill Divider App in Java.
-22.) Bill Tip value App in Java. 
-23.) The Biller App in Java. 
-24.) VAT (Value Added Tax) calculator in Java.
-25.) Discount calculator in Java.
-26.) Compound Interest calculator in Java.
-27.) Array Calculator in Java.
-28.) Password Access in Java. 
-29.) Lottery random number game in Java.
-30.) Average Markes Calculator in Java.
-31.) Addition calculator in swing Java.
-32.) Calculator in swing Java.
-33.) PERT application in swing Java.
-34.) Three Point Estimation app in swing Java.
-35.) Swing based name app in Java.
-36. Project Management - PV(Planned Value) application. 
-37. Project Management - EV(Earned Value) application. 
-38. Project Management - SV(Schedule Variance) application.
-39. Project Management - SPI(Schedule Performance Index) application.
-40. Project Management - CV(Cost Variance) application.
-41. Project Management - CPI(Cost Performance Index) application. 
-42. Project Management - EAC(Estimate At Completion) application.
-43. Project Management - ETC(Estimate To Complete) application.
-44. Project Management - SD(Standard Deviation) application.
-45. Project Management - VC(Variance At Completion) application.
-46. Project Management - ROI(Return On Investment) application.
-47. BMI calculator application. 
-48. Estimating Effort Calculator. 
-49. Hourly Wage Calculator Application.
-50. Bus Fare Application(v1,v2).
+20) Message switch application in java.
+21) Bill Divider App in Java.
+22) Bill Tip value App in Java. 
+23) The Biller App in Java. 
+24) VAT (Value Added Tax) calculator in Java.
+25) Discount calculator in Java.
+26) Compound Interest calculator in Java.
+27) Array Calculator in Java.
+28) Password Access in Java. 
+29) Lottery random number game in Java.
+30) Average Markes Calculator in Java.
+31) Addition calculator in swing Java.
+32) Calculator in swing Java.
+33) PERT application in swing Java.
+34) Three Point Estimation app in swing Java.
+35) Swing based name app in Java.
+36) Project Management - PV(Planned Value) application. 
+37) Project Management - EV(Earned Value) application. 
+38) Project Management - SV(Schedule Variance) application.
+39) Project Management - SPI(Schedule Performance Index) application.
+40) Project Management - CV(Cost Variance) application.
+41) Project Management - CPI(Cost Performance Index) application. 
+42) Project Management - EAC(Estimate At Completion) application.
+43) Project Management - ETC(Estimate To Complete) application.
+44) Project Management - SD(Standard Deviation) application.
+45) Project Management - VC(Variance At Completion) application.
+46) Project Management - ROI(Return On Investment) application.
+47) BMI calculator application. 
+48) Estimating Effort Calculator. 
+49) Hourly Wage Calculator Application.
+50) Bus Fare Application(v1,v2).
 
 ReleaseNotes
